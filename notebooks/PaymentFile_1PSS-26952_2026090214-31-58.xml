@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance&amp;quot">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>1PSS-26952</MsgId>
+			<CreDtTm>2026-09-02T14:31:57</CreDtTm>
+			<Authstn>
+				<Cd>ILEV</Cd>
+			</Authstn>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>ABC52047001</Id>
+						</Othr>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>06021B02506-1011</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<ReqdExctnDt>2026-07-31</ReqdExctnDt>
+			<Dbtr>
+				<Nm>3A Nutrition Viet Nam</Nm>
+				<PstlAdr>
+					<StrtNm>01 Centec Tower, 72-74 Nguyen Thi Minh Khai Street</StrtNm>
+					<TwnNm>HO CHI MINH</TwnNm>
+					<Ctry>VN</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>090308388101</Id>
+					</Othr>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>HSBCVNVX</BIC>
+					<PstlAdr>
+						<Ctry>VN</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>06021B02506-1011</InstrId>
+					<EndToEndId>06021B02506-1011</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="USD">200000</InstdAmt>
+				</Amt>
+				<ChrgBr>SHAR</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC>SGABLULL</BIC>
+						<Nm>SOCIETE GENERALE  LUXEMBOURG S.A.</Nm>
+						<PstlAdr>
+							<TwnNm>11 Avenue Emile Reuter, L-2420 Luxe</TwnNm>
+							<Ctry>LU</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>ABBOTT INVESTMENTS LUXEMBOURG SARL</Nm>
+					<PstlAdr>
+						<StrtNm>26 Boulevard Royal, L-2449 Luxembourg, Luxembourg</StrtNm>
+						<PstCd>L-2449</PstCd>
+						<TwnNm>Luxembourg</TwnNm>
+						<Ctry>LU</Ctry>
+					</PstlAdr>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>LU590612332812600USD</IBAN>
+					</Id>
+				</CdtrAcct>
+				<RltdRmtInf>
+					<RmtLctnMtd>EMAL</RmtLctnMtd>
+					<RmtLctnElctrncAdr>VN-3A-STP@abbott.com</RmtLctnElctrncAdr>
+				</RltdRmtInf>
+				<RltdRmtInf>
+					<RmtLctnMtd>EMAL</RmtLctnMtd>
+					<RmtLctnElctrncAdr>victoria.luo@abbott.com</RmtLctnElctrncAdr>
+				</RltdRmtInf>
+				<RmtInf>
+					<Ustrd>TT Hoa Don 72026</Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
